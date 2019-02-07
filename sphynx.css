@@ -1,0 +1,132 @@
+
+
+  
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    background-color:#c09d97;
+
+  }
+ 
+  p{
+      margin-left: 200px;
+  }
+  .grid-container{
+    display: grid;
+    min-height: 100%;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+    "hd hd   hd   hd   hd   hd   hd"
+    "main main main main main main main"
+    "ft ft   ft   ft   ft   ft   ft";
+  }
+  .header {
+  grid-area: hd;
+  color: #969191;
+  font-family: 'Monoton', cursive;
+  font-size: 30px;
+  justify-self: center;
+  text-align: center;
+  }
+  .hborder{
+    border: solid #969191 3px;
+  }
+  .infotext{
+    grid-area: main;
+  }
+  .footer{
+    grid-area: ft;
+    align-items: end;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #707070;
+    color: white;
+    text-align: center;
+  }
+  .kattknapp
+ {
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;
+     margin-right: 50px;
+     margin-left: 200px;
+     outline: none;
+ }
+ .fontknapp
+ {
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;
+     margin-right: 50px;
+     margin-left: 200px;
+     outline: none;
+ }
+ .kattknapp:checked::before
+ {
+     position: absolute;
+     font: 30px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+ }
+ 
+ .fontknapp:checked::before
+ {
+     position: absolute;
+     font: 30px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+ }
+ button
+ {
+    margin-left: 200px;
+ }
+ button {
+  padding: 10px 20px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgb(143, 84, 135);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+ }
+ 
+ button:hover {background-color: pink}
+ 
+ button:active {
+  background-color: pink;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+ }
+ 
