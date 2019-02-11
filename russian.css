@@ -26,6 +26,10 @@ header{
     grid-gap: 20px;
 }
 
+.img{
+    content: url("./images/russian_blue.jpg")
+}
+
 .boxes{
     display: grid;
     grid-gap: 20px;
