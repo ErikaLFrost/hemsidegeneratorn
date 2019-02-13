@@ -83,13 +83,13 @@ grid-template-columns: repeat(4, 1fr);
     font-size: 4rem;
     margin-bottom: 0;
     color:var(--light);
-    background: rgba(65, 64, 64, 0.3);
+    background: rgba(58, 151, 204, 0.3);
 }
 .showcase p{
     font-size: 1.3rem;
     margin-top: 0;
     color: var(--light);
-    background: rgba(65, 64, 64, 0.3);
+    background: rgba(58, 151, 204, 0.3);
 }
 /* Top box*/
 .top-box{
