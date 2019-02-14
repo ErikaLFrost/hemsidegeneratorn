@@ -37,10 +37,11 @@ header{
 }
 .box{
   background: rgba(197, 160, 160, 0.3);
-   text-align: center;
+align-content: flex-start;
    padding: 1.5rem 2rem;
    box-shadow: var(--shadow);
    border-radius: 20px;
+
 }
 
 footer{
@@ -69,7 +70,7 @@ footer{
   border-radius: 50px;
   cursor: pointer;
     outline: none;
-    margin-left: 90px;
+    margin-left: 1px;
     margin-bottom: 1px;
 }
 .fontknapp
@@ -87,7 +88,7 @@ footer{
   border: 0;
   border-radius: 50px;
   cursor: pointer;
-margin-left: 90px;
+  margin-left: 1px;
   outline: none;
 }
 
@@ -111,8 +112,8 @@ margin-left: 90px;
   transform: rotate(40deg);
 }
 button{
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 130px;
+    margin-top: 30px;
         padding: 10px 20px;
         font-size: 24px;
         text-align: center;
@@ -132,3 +133,5 @@ button{
         box-shadow: 0 5px #666;
         transform: translateY(4px);
        }
+
+   
