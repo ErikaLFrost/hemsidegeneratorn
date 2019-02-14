@@ -134,4 +134,17 @@ button{
         transform: translateY(4px);
        }
 
-   
+       .btn{
+        margin-left: 120px;
+        padding: 10px 20px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color:var(--dark);
+        border: 20px;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+        text-decoration: none;
+        }
