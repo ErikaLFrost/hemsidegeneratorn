@@ -16,7 +16,14 @@ body{
     background: #ccc;
     margin: 30px 50px;
     line-height: 1.4;
-    height: 100%;
+}
+
+.btn{
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 0.6 1.3rem;
+    text-decoration: none;
+    border:0;
 }
 
 img{
@@ -68,7 +75,7 @@ grid-template-columns: repeat(4, 1fr);
 .showcase{
     grid-area: showcase;
     min-height: 400px;
-    background: url(./images/laptop.png);
+    background: url(./images/dator2.png);
     background-size: cover;
     background-position: center;
     padding: 3rem;
@@ -83,13 +90,11 @@ grid-template-columns: repeat(4, 1fr);
     font-size: 4rem;
     margin-bottom: 0;
     color:var(--light);
-    background: rgba(58, 151, 204, 0.3);
 }
 .showcase p{
     font-size: 1.3rem;
     margin-top: 0;
-    color: var(--light);
-    background: rgba(58, 151, 204, 0.3);
+    color: var(--light)
 }
 /* Top box*/
 .top-box{
@@ -135,10 +140,6 @@ padding: 1.5rem;
      grid-gap: 30px;
      grid-template-columns: repeat(2, 1fr);
      padding: 3rem;
- }
-
- .weeklytheme{
-     margin-bottom: 85px;
  }
 /*portfolio*/
  .portfolio {
@@ -208,29 +209,28 @@ margin-left: 90px;
   content: '\02143';
   transform: rotate(40deg);
 }
-.btn{
-    margin-left: 120px;
-    padding: 10px 20px;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color:var(--dark);
-    border: 20px;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-    text-decoration: none;
-    
-    }
+button{
+    margin-left: 50px;
+    margin-top: 50px;
+        padding: 10px 20px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color:var(--dark);
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+       }
        
-.btn:hover {background-color: pink}
+       button:hover {background-color: pink}
        
-.btn:active {
-background-color: pink;
-box-shadow: 0 5px #666;
-transform: translateY(4px);
-    }
+       button:active {
+        background-color: pink;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+       }
 
  /* Footer */
  footer{

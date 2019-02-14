@@ -10,12 +10,13 @@
 </head>
 
 <body>
+    <script src="js.js"></script>
     <div class="wrapper">
     <!--Navigation-->
     <nav class="main-nav">
         <ul>
-            <li><a href="#">Hem</a></li>
-            <li><a href="#">Stylesheets</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="template2.html">Stylesheets</a></li>
             <li><a href="#">HTML</a></li>
             <li><a href="#">Ladda ner</a></li>
         </ul>
@@ -26,7 +27,7 @@
             <h1>Hemsidegeneratorn</h1>
             <p>Kom igång med din webbplats! Välj och ladda ner olika stylesheets snabbt och enkelt.<br>
             Få ett mindre utbud kostnadsfritt eller skapa ett medlemsskap för tillgång till hela biblioteket.</p>
-            
+            <a href="#" class="btn">Läs mer</a>
         </header>
         <div class="top-box top-box-a">
             <h4>Testa gratis!</h4>
@@ -44,6 +45,7 @@
         <img src="images/stylesheet3.jpg" alt="">
         <img src="images/stylesheet4.jpg" alt="">
         <img src="images/stylesheet5.jpg" alt="">
+        <img src="images/stylesheet6.jpg" alt="">
         
         
             </section>
@@ -51,14 +53,29 @@
 
     <!--info section-->
     <section class="info">
-        <img src="images/cat_week.png" alt="">
+        <img src="images/dator.png" alt="">
         <div>
-        <div class="weeklytheme">
             <h2> Crazy cat ladies n gents! Veckans tema är katter! <br> </h2>     
-            <p><b>Testa och se några av våra populära katt-stylesheets och fonter. 
-                Tryck på knappen för att komma vidare till vår hemsidegenerator och få tillgång till förstklassiga stylesheets!</b></p>
-        </div>
-            <a href="./template.html" a target="_blank" class="btn">Till hemsidegeneratorn</a>
+            <p><b>Testa och se några av våra populäraste katt-stylesheets och fonter nedan</b></p>
+    
+            <a href="#" class="btn">Läs mer</a>
+            <p><b>Välj (katt)tema</b></p>
+            <form action="">
+          
+                <input type="radio" name="cat" value="bengal" id="cat1" class="kattknapp" checked><label for="bengal">Bengal</label>   <br>
+                <input type="radio" name="cat" value="russian" id="cat2" class="kattknapp" checked><label for="russian">Russian Blue</label>  <br>
+                <input type="radio" name="cat" value="sphynx" id="cat3" class="kattknapp" checked><label for="sphynx">Sphynx</label><br>
+          
+          
+              </form>
+              <p><b>Välj font</b></p>
+              <form action="">
+              <input type="radio" name="font" value="comic" id="font1" class="fontknapp" checked><label for="comic">Comic sans</label>   <br>
+              <input type="radio" name="font" value="fatface" id="font2" class="fontknapp" checked><label for="fatface">Fatface</label>  <br>
+              </form>
+
+              
+              <button onclick="button()">Generera stylesheet</button>
         </div>
     </section>
 
