@@ -9,16 +9,16 @@ html{
     line-height: 1.4;
     /*background-image: url("images/pink_cloud.jpg");*/
     background-repeat: no-repeat;
-    color: #ebdddd;
+    color: #575151;
   }
   header{
     padding: 3px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #332e2e;
+    color: #575151;
     justify-content: center;
-    background: rgba(245, 234, 234, 0.3);
+    background: rgba(155, 154, 154, 0.637);
     border-radius: 20px;
   }
   .grid_container{
@@ -27,7 +27,8 @@ html{
   }
   
   .img{
-    content: url("./images/sphynx.jpg")
+    content: url("./images/Katten2.jpg.png")
+  
   }
   
   .boxes{
@@ -36,7 +37,7 @@ html{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
   .box{
-    background: rgba(245, 234, 234, 0.3);
+    background: rgba(155, 154, 154, 0.637);
     
      padding: 1.5rem 2rem;
      box-shadow: var(--shadow);
@@ -50,8 +51,8 @@ html{
     color: var(--light);
     text-align: center;
     padding: 1rem;
-    background: rgba(245, 234, 234, 0.3);
-    color: #797272;
+    background: rgba(155, 154, 154, 0.637);
+    color: #575151;
     border-radius: 20px;
   }
   .kattknapp
@@ -126,7 +127,7 @@ button{
         box-shadow: 0 9px #999;
        }
        
-       button:hover {background-color: pink}
+       button:hover {background-color:#575151}
        
        button:active {
         background-color: pink;
