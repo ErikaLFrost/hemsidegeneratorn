@@ -52,3 +52,82 @@ footer{
   background: rgba(2, 2, 2, 0.3);
   border-radius: 20px;
 }
+.kattknapp
+{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  position: relative;
+  background-color: #f1f1f1;
+  color: #666;
+  top: 10px;
+  height: 30px;
+  width: 30px;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+    outline: none;
+    margin-left: 90px;
+    margin-bottom: 1px;
+}
+.fontknapp
+{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  position: relative;
+  background-color: #f1f1f1;
+  color: #666;
+  top: 10px;
+  height: 30px;
+  width: 30px;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+margin-left: 90px;
+  outline: none;
+}
+
+.kattknapp:checked::before
+{
+  position: absolute;
+  font: 30px/1 'Open Sans', sans-serif;
+  left: 11px;
+  top: 0px;
+  content: '\02143';
+  transform: rotate(40deg);
+}
+
+.fontknapp:checked::before
+{
+  position: absolute;
+  font: 30px/1 'Open Sans', sans-serif;
+  left: 11px;
+  top: 0px;
+  content: '\02143';
+  transform: rotate(40deg);
+}
+button{
+    margin-left: 50px;
+    margin-top: 50px;
+        padding: 10px 20px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color:var(--dark);
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+       }
+       
+       button:hover {background-color: pink}
+       
+       button:active {
+        background-color: pink;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+       }

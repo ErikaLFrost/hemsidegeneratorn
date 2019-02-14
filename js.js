@@ -1,25 +1,32 @@
+
 function button() {
     //bengal katten
     if(document.getElementById('cat1').checked) {
 
+        
+
         document.getElementById('stylesheet').href="bengal.css";
-        document.getElementById("demo").innerHTML = "bengal";
-        document.getElementById('myImage').src='bengalcat.jpg';
-     
         
        
         //font
         if(document.getElementById("font1").checked) {
             document.getElementById("googlefont").style="font-family: 'Indie Flower', cursive;";
+            document.getElementById("link").href = "bengalflower.pdf";
+            document.getElementById("link").innerHTML = "Ladda ner koden!";
+
             
 
         }
         else if (document.getElementById("font2").checked){
-            document.getElementById("googlefont").style="font-family: 'Orbitron', sans-serif;";
+            document.getElementById("googlefont").style="font-family: 'Great Vibes', cursive;";
+            document.getElementById("link").href = "bengalvibes.pdf";
+            document.getElementById("link").innerHTML = "Ladda ner koden!";
             
         }
         else if (document.getElementById("font3").checked){
             document.getElementById("googlefont").style="font-family: 'Permanent Marker', cursive;";
+            document.getElementById("link").innerHTML = "Ladda ner koden!";
+            document.getElementById("link").href = "bengalperm.pdf";
             
         } }
 
@@ -27,23 +34,27 @@ function button() {
     else if(document.getElementById('cat2').checked) {
         //css
         document.getElementById('stylesheet').href="russian.css";
-        document.getElementById("demo").innerHTML = "russian";
+        
 
-        //bild
-        document.getElementById('myImage').src='russian_blue.jpg';
+        
 
         //font
         if(document.getElementById("font1").checked) {
             document.getElementById("googlefont").style="font-family: 'Indie Flower', cursive;";
+            document.getElementById("link").href = "russianflower.pdf";
             
 
         }
         else if (document.getElementById("font2").checked){
-            document.getElementById("googlefont").style="font-family: 'Orbitron', sans-serif;";
+            document.getElementById("googlefont").style="font-family: 'Great Vibes', cursive;";
+            document.getElementById("link").href = "russianvibes.pdf";
+            document.getElementById("link").innerHTML = "Ladda ner koden!";
             
         }
         else if (document.getElementById("font3").checked){
             document.getElementById("googlefont").style="font-family: 'Permanent Marker', cursive;";
+            document.getElementById("link").href = "russianperm.pdf";
+            document.getElementById("link").innerHTML = "Ladda ner koden!";
             
         }  }
         //sphynx katt
@@ -52,26 +63,32 @@ function button() {
         //css
         document.getElementById('stylesheet').href="sphynx.css";
 
-        document.getElementById("demo").innerHTML = "sphynx";
-        //bild
-        document.getElementById('myImage').src='sphynx.jpeg';
+    
 
         //font
         if(document.getElementById("font1").checked) {
             document.getElementById("googlefont").style="font-family: 'Indie Flower', cursive;";
+            document.getElementById("link").href = "sphynxflower.pdf";
+            document.getElementById("link").innerHTML = "Ladda ner koden!";
             
 
         }
         else if (document.getElementById("font2").checked){
-            document.getElementById("googlefont").style="font-family: 'Orbitron', sans-serif;";
+            document.getElementById("googlefont").style="font-family: 'Great Vibes', cursive;";
+            document.getElementById("link").href = "sphynxvibes.pdf";
+            document.getElementById("link").innerHTML = "Ladda ner koden!";
             
         }
         else if (document.getElementById("font3").checked){
             document.getElementById("googlefont").style="font-family: 'Permanent Marker', cursive;";
+            document.getElementById("link").href = "sphynxperm.pdf";
+            document.getElementById("link").innerHTML = "Ladda ner koden!";
             
         } 
     }
 }
+
+
 
 
         
