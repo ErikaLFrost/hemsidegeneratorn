@@ -4,13 +4,15 @@ function button() {
     if(document.getElementById('cat1').checked) {
 
         
-
+        //ändra tema
         document.getElementById('stylesheet').href="bengal.css";
         
        
         //font
         if(document.getElementById("font1").checked) {
             document.getElementById("googlefont").style="font-family: 'Indie Flower', cursive;";
+            
+            //filen
             document.getElementById("link").href = "bengalflower.pdf";
             document.getElementById("link").innerHTML = "Ladda ner koden!";
 
